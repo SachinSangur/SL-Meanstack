@@ -1,0 +1,27 @@
+GitHub Basic Commands
+
+	==============================For Initial Commit===================================
+	
+	# git config --global user.email Himanshu.bharas39@gmail.com
+	# git config --global user.name Himsv39
+	
+	# git init
+	# git add README.md
+	# git commit -m first commit
+	# git branch -M main
+	# git remote add origin httpsgithub.comHimsv39HBharas_MEAN1.git
+	# git push -u origin main
+	
+	==============================For Subsequent Commits==============================
+	
+	# git init
+	# git commit -m first commit
+	# git push
+	
+	==============================To Check Remote URL=================================
+	
+	# git remote -v
+		When you run git remote -v, you will get a list of handles and associated URLs
+		So if you have different handlers for the same remote, the console output could look something like this
+			DGitHubgit remote -v
+			origin  httpsgithub.comp
